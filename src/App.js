@@ -28,7 +28,7 @@ function App() {
   return (
     <div>
     <h1>Stopwatch</h1>
-    <p>Time:{formatTime(timer)}</p>
+    <p>Time: {formatTime(timer)}</p>
     <button onClick={()=>{
       setIsRunning((prev)=>!prev)
     }}>{running?"Stop":"Start"}</button>
